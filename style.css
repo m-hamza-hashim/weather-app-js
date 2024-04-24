@@ -1,0 +1,50 @@
+.box {
+    background-color: #cdcfff;
+    width: 537px;
+    height: 501px;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #acacff;
+}
+
+.input-group {
+    width: 54%;
+    margin-left: 70px;
+}
+
+.form-control {
+    border-radius: 47px !important;
+    background-color: #cdcfff; 
+    font-size: 23px;
+    text-align: center;
+    margin-top: -16px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+    margin-top: 32px;
+}
+
+.form-control:focus {
+    outline: none !important;
+}
+
+@media only screen and (max-width: 535px) {
+    .box {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+}
+
+@
