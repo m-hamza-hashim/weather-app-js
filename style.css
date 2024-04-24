@@ -1,9 +1,11 @@
+/* nav  */
 .box {
     background-color: #cdcfff;
     width: 537px;
     height: 501px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     border-radius: 30px;
 }
 
@@ -26,6 +28,7 @@ body {
     font-size: 23px;
     text-align: center;
     margin-top: -16px;
+    margin-left: 15px !important;
 }
 
 .nav {
@@ -36,7 +39,7 @@ body {
 }
 
 .form-control:focus {
-    outline: none !important;
+    background-color: #cdcfff;
 }
 
 @media only screen and (max-width: 535px) {
@@ -47,4 +50,7 @@ body {
     }
 }
 
-@
+/* date  */
+#date {
+    margin-top: 20px;
+}
