@@ -89,13 +89,19 @@ body {
 }
 
 @media only screen and (max-width: 535px) {
+  #temp {
+    margin-top: 42px;
+  }
+
   #des {
     left: 7vw;
+    top: 292px;
   }
 
   #icon {
     left: 56vw;
     width: 37vw;
+    top: 193px;
   }
 }
 
